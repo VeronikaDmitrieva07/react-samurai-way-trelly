@@ -9,6 +9,5 @@ export function useTasks() {
         getTasks()
             .then(json => setTasks(json.data))
     }, [])
-
     return {tasks}
 }
